@@ -8,11 +8,11 @@ In here you will discover key web-two technologies and concepts to build web app
 
 [![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
 
-## Quick Start
+## Web Two
 
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+Modern applications, web applications, mobile applications and websites built using programming technologies and web development frameworks
+compromise of what we today know as web two. Technologies like javascript (even typecript) and react are amongst the most popular tools
+to build modern applications.
 
 ## Local Development
 
