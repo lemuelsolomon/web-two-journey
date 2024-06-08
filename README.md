@@ -1,8 +1,10 @@
-# Nextra Docs Template 
+# Web-two-journey
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+## Sharing My Web-two Learning Journey With The World Through Proactive Development
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+In here you will discover key web-two technologies and concepts to build web applications.
+
+[**Learn Web-two Concepts Here →**](https://nextra-docs-template.vercel.app)
 
 [![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
 
