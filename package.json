@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
+  "name": "web-two-journey",
   "version": "0.0.1",
-  "description": "Nextra docs template",
+  "description": "Web-two Journey",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

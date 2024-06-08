@@ -1,15 +1,22 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
+  "javascriptBasics": "Javascript Basics",
   "advanced": "Advanced (A Folder)",
   "about": {
     "title": "About",
     "type": "page"
   },
-  "contact": {
-    "title": "Contact ↗",
+  "twitter": {
+    "title": "Twitter ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://x.com/solomonwebthree",
+    "newWindow": true
+  }
+  ,
+  "linkedin": {
+    "title": "Linkedin ↗",
+    "type": "page",
+    "href": "https://www.linkedin.com/in/callmesolomon/",
     "newWindow": true
   }
 }

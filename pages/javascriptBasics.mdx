@@ -1,0 +1,55 @@
+# Javascript Basics
+
+## Ways To Define/Declare Variables
+
+
+```js filename="variables.js" {3} copy
+// var is not used anymore as it does not provide reliable specificity 
+// in terms scope control. Sidenote: "//" sed for ingle line comments
+// Use const and let instead.
+var title = 'Welcome to Web-Two Journey';
+
+// const key word creates an immutable variable
+const newVar = 'Hire Me';
+// meaning you cannot assign a new value to the const as shown below
+// newVar = 'Hire me for a senior role';
+
+// use let to create an immuatable variable.
+let newVarOne = 'Hire Me For New Roles'
+// reassigning a new value is enabled now
+newVarOne = "I am new senior developer roles. Hire me now."
+
+console.log(newVar);
+```
+
+## Basic Javascript Data Types
+
+```js filename="variables.js" {3} copy
+const preferredName = 'Solomon';
+// number for defining integers or floating point numbers
+const toes = 10;
+// boolean type
+const innovating = true;
+
+// Container data types to store related content
+// Array "Container"
+
+const walletUsers = ['Alice', 'Bob'];
+
+// Object "Container"
+
+const jobDetails = {
+  type: 'Engineering',
+  location: 'remote(International)',
+  minimum_experience_in_months: 6,
+}
+
+
+console.log(jobDetails)
+```
+
+## External Component
+
+import Counters from '../components/counters'
+
+<Counters />
