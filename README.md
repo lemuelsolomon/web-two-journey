@@ -6,7 +6,8 @@ In here you will discover key web-two technologies and concepts to build web app
 
 [**Learn Web-two Concepts Here →**](https://web-two-journey.vercel.app/)
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+![image](https://github.com/lemuelsolomon/web-two-journey/assets/37772999/d55b9a41-6033-47f8-abd1-417132bf25d0)
+
 
 ## Web Two
 
