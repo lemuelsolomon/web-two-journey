@@ -4,9 +4,7 @@
 
 In here you will discover key web-two technologies and concepts to build web applications.
 
-[**Learn Web-two Concepts Here →**](https://web-two-journey.vercel.app/){:target="_blank"}.
-
-<a href="https://web-two-journey.vercel.app/" target="_blank">[**Learn Web-two Concepts Here →**]</a>.
+[**Learn Web-two Concepts Here →**](https://web-two-journey.vercel.app/ {:target="_blank"}).
 
 [![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
 
