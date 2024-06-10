@@ -1,23 +1,27 @@
 # Javascript Basics
 
+## Part 1
+
 ## Ways To Define/Declare Variables
 
-
 ```js filename="variables.js" {3} copy
-// var is not used anymore as it does not provide reliable specificity 
-// in terms scope control. Sidenote: "//" sed for ingle line comments
+// var is not used anymore as it does not provide reliable specificity
+// in terms scope control. Sidenote: "//" used for single line comments
 // Use const and let instead.
-var title = 'Welcome to Web-Two Journey';
+
+var title = "Welcome to Web-Two Journey";
 
 // const key word creates an immutable variable
-const newVar = 'Hire Me';
+const newVar = "Hire Me";
+
 // meaning you cannot assign a new value to the const as shown below
 // newVar = 'Hire me for a senior role';
 
-// use let to create an immuatable variable.
-let newVarOne = 'Hire Me For New Roles'
+// use let to create a muatable variable.
+let newVarOne = "Hire Me For New Roles";
+
 // reassigning a new value is enabled now
-newVarOne = "I am new senior developer roles. Hire me now."
+newVarOne = "I'm on the job market for new senior developer roles. Hire me now.";
 
 console.log(newVar);
 ```
@@ -25,31 +29,96 @@ console.log(newVar);
 ## Basic Javascript Data Types
 
 ```js filename="variables.js" {3} copy
-const preferredName = 'Solomon';
+const preferredName = "Solomon";
+
 // number for defining integers or floating point numbers
 const toes = 10;
+
 // boolean type
 const innovating = true;
 
 // Container data types to store related content
 // Array "Container"
 
-const walletUsers = ['Alice', 'Bob'];
+const walletUsers = ["Alice", "Bob"];
 
 // Object "Container"
 
 const jobDetails = {
-  type: 'Engineering',
-  location: 'remote(International)',
+  type: "Engineering",
+  location: "remote(International)",
   minimum_experience_in_months: 6,
-}
+};
 
-
-console.log(jobDetails)
+console.log(jobDetails);
 ```
 
-## External Component
+## Part 2
 
-import Counters from '../components/counters'
+## Numerical and string operators, Conditional and control flow statements
+
+```js filename="basics_part-two.js" {3} copy
+// Arithmetic
+// Numbers: +, -, /, *, ^, %
+// String: +
+
+//Concatenation can be done using the + operator but you can use concat method
+
+const respectiveWalletBalances = walletUsers.concat([1000, 2000]);
+
+console.log(respectiveWalletBalances);
+// retruns a new array with 1000 and 2000 appended to the walletUsers array
+
+// Get the type of a variable
+
+console.log(typeof respectiveWalletBalances);
+
+// type casting: converting one type to another.
+// Can do it explicitly or implicitly
+
+const a = 100;
+const b = "100";
+
+// Convert variable b to a number using the number operator.
+// Explicit type casting
+const bNumber = Number(b);
+
+const c = a + b;
+
+// Implicit typing can produce unpredicatble or unreliable results
+// produces 300 because performed casting by the interpreter is releavant to
+// the value of a
+// however, sometimes you might need to join (concatenate) so this operations is
+// not suitable so be aware of that.
+
+console.log(c);
+
+// control flow
+
+// if else statement
+
+const user = {
+  name: 'Solomon',
+  City; 'Steyn'
+}
+
+// strict equality/comparison with three = signs. == is less strict
+if(user.name === 'Solomon') {
+  console.log('It is Solomon');
+} else {
+    console.log('It is NOT Solomon');
+}
+
+//control flow; for loop for repeating iterative operations
+// e.g. for( initial condition; stopping condition; the iterative operation)
+
+for(let i = 0; i < 20; i++) {
+  console.log(i)
+}
+```
+
+#### Like the content? Hit the 🫶 button!
+
+import Counters from "../components/counters";
 
 <Counters />
