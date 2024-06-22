@@ -1,0 +1,62 @@
+# Adavanced Javascript
+
+## Different Types Of Javascript Functions
+
+```js filename="functions.js" {3} copy
+// ======================================================
+ 
+ 
+console.log('Here Is A Simple Function');
+function greetOne() {
+  console.log('sayHello: Hello!')
+}
+ 
+greetOne() // Output: Hello!
+console.log('')
+ 
+// ======================================================
+ 
+ 
+console.log('Simple function with arguments')
+function greetTwo(name) {
+  console.log('sayHello: Hello ' + name + '!')
+}
+ 
+greetTwo()
+console.log('')
+ 
+// ======================================================
+ 
+console.log('Fuction with return values')
+function square(x) {
+  return x * x
+}
+let result = square(7) // result is now equal to 49
+console.log('square: result: ', result)
+console.log('')
+ 
+// ======================================================
+ 
+console.log('Function with multiple arguments and return values')
+function sumAndProduct(num1, num2) {
+  return [num1 + num2, num1 * num2]
+}
+ 
+// array destructuring
+let [sum, product] = sumAndProduct(4, 5)
+console.log('sumAndProduct: sum: ', sum) // Output: 9
+console.log('sumAndProduct: product: ', product) // Output 20
+console.log('')
+ 
+// ======================================================
+ 
+
+
+
+```
+
+#### Like the content? Hit the 🫶 button!
+
+import Counters from "../../components/counters";
+
+<Counters />

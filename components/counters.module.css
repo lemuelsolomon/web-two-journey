@@ -4,3 +4,10 @@
   padding: 2px 6px;
   margin: 12px 0 0;
 }
+
+.counter:hover {
+  border: 3px solid #f7eb05;
+  border-radius: 5px;
+  padding: 2px 6px;
+  margin: 12px 0 0;
+}
